@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.17.0.1">
+	<node type="ObjectDummy" id="1158764119" trigger_interaction_enabled="1" name="player">
+		<body type="BodyDummy" id="352916238" frozen="0">
+			<shape type="ShapeCapsule" id="551517076" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 -1.77635684e-15 -3.55271368e-15 -1 1">
+				<radius>0.300000012</radius>
+				<height>1.14999998</height>
+			</shape>
+		</body>
+		<properties>
+			<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="8f73bdba0e4fed8f81301da39ebde21ffadfebb7">
+				<parameter name="useObjectBody">1</parameter>
+				<parameter name="cameraMode">2</parameter>
+				<parameter name="camera">355860426</parameter>
+				<parameter name="nearClipping">0.100000001</parameter>
+				<parameter name="farClipping">100000</parameter>
+			</property>
+			<property parent="b2fd62fb5e4dfd419db9dd2dfd67aaee8f746a52" guid="2f6f93f61f8be7943f212901a01952283697d5aa">
+				<parameter name="cameraCast">d0249f0ea04ea218f1e78b87b842aebfa9fef6db</parameter>
+			</property>
+			<property parent="698ba7f2fee2a9c0d8c971d8312cbadcc4607f0b" guid="ad283d7c8fa00369ce998d8ddf4dea2f5ee08901">
+				<parameter name="cameraCast">d0249f0ea04ea218f1e78b87b842aebfa9fef6db</parameter>
+				<parameter name="mouseHandler">b4af561868937892f726dc1bedaa9b51e5854e6c</parameter>
+			</property>
+		</properties>
+		<transform>0.99999994 -5.55111512313e-17 0 0.0 5.55111512313e-17 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		<node type="PlayerDummy" id="355860426" name="PlayerDummy">
+			<znear>0.300000012</znear>
+			<zfar>100000</zfar>
+			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+			<is_oblique_frustum>0</is_oblique_frustum>
+			<is_main>1</is_main>
+			<is_listener>1</is_listener>
+			<controlled>1</controlled>
+			<properties>
+				<property parent="626faa9338f4a690fa702b4244415660adab0e56" guid="b4af561868937892f726dc1bedaa9b51e5854e6c"/>
+				<property parent="9b39ebd3c0538a27528311980e7637abfd87f887" guid="d0249f0ea04ea218f1e78b87b842aebfa9fef6db">
+					<parameter name="shootingCamera">355860426</parameter>
+				</property>
+			</properties>
+			<transform>1.00000023842 0 0 0.0 0 5.96046341172e-08 0.999999761581 0.0 0 -1 5.96046518808e-08 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

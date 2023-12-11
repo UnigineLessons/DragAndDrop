@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.17.0.1" guid="940c8354492d7029f54e9a4615564999602c2f6d" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<state name="workflow">1</state>
+	<parameter name="diffuse_color" expression="0">0.0528412573 0.0920167342 0.119272329 1</parameter>
+</material>
